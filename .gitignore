@@ -42,3 +42,7 @@ next-env.d.ts
 
 # deployment temp folder
 /report-deploy/
+
+# Reports and scripts
+Project_Report*
+src/scratch/
