@@ -45,4 +45,6 @@ next-env.d.ts
 
 # Reports and scripts
 Project_Report*
+!Project_Report_Academic.md
+!Project_Report_Final.html
 src/scratch/

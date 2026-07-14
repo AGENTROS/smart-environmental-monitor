@@ -3,7 +3,7 @@
   ------------------------------------------------------------------
   Modified version of Teacher's code integrated with:
     1. Your physical pin configuration (with safe output overrides for Trig & Buzzer)
-    2. Your Wi-Fi credentials ("Noob" / "12345678")
+    2. Wi-Fi credentials configured locally before flashing
     3. Both dashboards (Teacher's HTML dashboard + SaaS Web App dashboard)
     4. Stable 2-second DHT11 sampling and simulation fallback (prevents DHT read errors)
     5. Real-time automation alert logic (High Temp, IR Motion, Rain Alert)
@@ -18,8 +18,9 @@
 // ============================================================
 //  WiFi Credentials
 // ============================================================
-const char* ssid     = "Noob";
-const char* password = "12345678";
+// Replace these with your own local credentials before flashing.
+const char* ssid     = "YOUR_WIFI_SSID";
+const char* password = "YOUR_WIFI_PASSWORD";
 
 // ============================================================
 //  Pin Definitions (Your Connections)
